@@ -13,7 +13,7 @@ var game = new Phaser.Game(800, 600, Phaser.CANVAS,
     render: render
 })
 
-
+//  -----------------------------------------
 function preload() {
     game.load.image('sky', 'assets/sky.png')
     game.load.image('plane1', 'assets/airplane1.png')
