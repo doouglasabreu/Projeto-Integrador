@@ -5,14 +5,7 @@ var player
 var player2
 
 
-var game = new Phaser.Game(800, 600, Phaser.CANVAS,
-    'game-container',
-{
-    preload: preload,
-    create: create,
-    update: update,
-    render: render
-})
+
 
 function preload() {
     game.load.image('sky', 'assets/sky.png')
